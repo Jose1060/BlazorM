@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="https://thumbs.gfycat.com/WeightyDopeyCats-size_restricted.gif" alt="Blazor" />
+  <img src="https://thumbs.gfycat.com/WeightyDopeyCats-size_restricted.gif" alt="Blazor"/>
 
 &#xa0;
 
@@ -52,7 +52,6 @@ Tutorial obtenido de https://learn.microsoft.com/en-us/training/modules/interact
 
 :heavy_check_mark: Blazon\
 :heavy_check_mark: Docker\
-:heavy_check_mark: ;
 
 ## :white_check_mark: Requirements
 
