@@ -55,7 +55,7 @@ Tutorial obtenido de https://learn.microsoft.com/en-us/training/modules/interact
 
 ## :white_check_mark: Requirements
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Solo necesitas [Git](https://git-scm.com) y docker, se recomienda usar [Play with Docker](https://labs.play-with-docker.com/).
 
 ## :checkered_flag: Starting
 
