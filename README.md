@@ -1,21 +1,21 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Blazor" />
+  <img src="https://thumbs.gfycat.com/WeightyDopeyCats-size_restricted.gif" alt="Blazor" />
 
 &#xa0;
 
   <!-- <a href="https://blazor.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Blazor</h1>
+<h1 align="center">Blazor Pizza</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/blazor?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Jose1060/blazor?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/blazor?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Jose1060/blazor?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/blazor?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Jose1060/blazor?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/blazor?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/{Jose1060/blazor?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/blazor?color=56BEB8" /> -->
 
@@ -46,23 +46,13 @@
 
 ## :dart: About
 
-Describe your project
+Tutorial obtenido de https://learn.microsoft.com/en-us/training/modules/interact-with-data-blazor-web-apps/1-introduction
 
 ## :sparkles: Features
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
-## :rocket: Technologies
-
-The following tools were used in this project:
-
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+:heavy_check_mark: Blazon\
+:heavy_check_mark: Docker\
+:heavy_check_mark: ;
 
 ## :white_check_mark: Requirements
 
@@ -72,25 +62,28 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/blazor
+$ git clone https://github.com/Jose1060/blazor
 
 # Access
 $ cd blazor
 
-# Install dependencies
-$ yarn
+# Build image
+$ docker build -t pizza .
+
+# psdt: el punto significa la ubicacion actual, por lo que tendremos que estar en la misma carpeta que se encuentra el dockerfile en la consola :v
 
 # Run the project
-$ yarn start
+$ docker run -it --rm -p 5200:80 --name pizzacontainer pizza
 
-# The server will initialize in the <http://localhost:3000>
+# The server will initialize in the <http://localhost:5200>
+# Si se esta trabajando con play with docker podra acceder con la ip publica que nos ofrece este
 ```
 
 ## :memo: License
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/Jose1060" target="_blank">Jose1060</a>
 
 &#xa0;
 
