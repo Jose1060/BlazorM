@@ -61,7 +61,7 @@ Solo necesitas [Git](https://git-scm.com) y docker, se recomienda usar [Play wit
 
 ```bash
 # Clone this project
-$ git clone https://github.com/Jose1060/blazor
+$ git clone https://github.com/Jose1060/BlazorM
 
 # Access
 $ cd BlazorM
