@@ -76,6 +76,22 @@ $ docker run -it --rm -p 5200:80 --name pizzacontainer pizza
 
 # The server will initialize in the <http://localhost:5200>
 # Si se esta trabajando con play with docker podra acceder con la ip publica que nos ofrece este
+
+# Para subir la imagen a DockerHub solo necesitas crear un respositorio nuevo, en este caso se creara
+# con el nombre de pizza.
+
+# Despues se tiene que logear en nuestro espacio de trabajo, con
+$ docker login -u YOUR-USER-NAME
+
+# Creamos el Tag
+$ docker tag docker-101 YOUR-USER-NAME/pizza
+
+# Realizamos el Push
+$ docker push YOUR-USER-NAME/pizza
+
+# Si queremos probar nuestra imagen, podemos crear una nueva instancia y utilizar el comando
+$ docker run -dp 5200:80 YOUR-USER-NAME/pizza
+
 ```
 
 ## :memo: License
