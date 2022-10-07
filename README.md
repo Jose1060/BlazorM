@@ -64,7 +64,7 @@ Solo necesitas [Git](https://git-scm.com) y docker, se recomienda usar [Play wit
 $ git clone https://github.com/Jose1060/blazor
 
 # Access
-$ cd blazor
+$ cd BlazorM
 
 # Build image
 $ docker build -t pizza .
